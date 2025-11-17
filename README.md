@@ -68,7 +68,21 @@ Here's the final confusion matrix:
 A simple adjustment makes the model far more useful in a real-world scenario, striking a balance between security (catching fraud) and customer convenience (avoiding false alarms).
 This emphasizes how important the process of choosing the most appropriate threshold is (threshold tuning). 
 
-Here's a final Summary dashboard that provides a general look on the main characteristics shared by actual and flagged as fraudulent transactions: 
+### Fraudulent Transactions: What the test set shows
+Top risky categories (actual fraud rate):
+* Leisure: 94.74% of transactions are fraudulent in the test set
+* Travel — 87.59% fraudulent
+* Sports & Toys — 47.86% fraudulent
+These three categories dominate the fraud mix. In the first heatmap below (Actual fraud rate by Age × Category), they appear as the darkest columns across nearly all age groups, meaning the risk isn't confined to a specific age.
+
+Fraudulent transactions in `Travel` are not only frequent but also expensive: the average fraud amount exceeds €250k, while typical fraudulent averages in other categories sit below €50k. This suggests Travel is both high-incidence and high-severity.
+
+Fraud is present across all age classes. No single age group is inherently “safe”.
+
+The second heatmap below (Flagged-as-fraud rate) aligns well with the truly risky categories (Leisure, Travel, Sports & Toys). 
+A few categories show divergence: some low-risk categories are flagged more than their actual fraud rate would suggest (over-flagging).
+
+Here's the final Summary dashboard that provides a general look on the main characteristics shared by actual and flagged as fraudulent transactions: 
 
 ![DashboardAnalysis](fraud-analysis-dashboard.png)
 

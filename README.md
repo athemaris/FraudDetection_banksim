@@ -66,6 +66,11 @@ Here's the final confusion matrix:
 ![ConfusionMatrix0.85](confusion-matrix-0.85.png)
 
 A simple adjustment makes the model far more useful in a real-world scenario, striking a balance between security (catching fraud) and customer convenience (avoiding false alarms).
+This emphasizes how important the process of choosing the most appropriate threshold is (threshold tuning). 
+
+Here's a final Summary dashboard that provides a general look on the main characteristics shared by actual and flagged as fraudulent transactions: 
+
+![DashboardAnalysis](fraud-analysis-dashboard.png)
 
 # How to Use This Repository
 

@@ -73,6 +73,7 @@ Top risky categories (actual fraud rate):
 * Leisure: 94.74% of transactions are fraudulent in the test set
 * Travel — 87.59% fraudulent
 * Sports & Toys — 47.86% fraudulent
+
 These three categories dominate the fraud mix. In the first heatmap below (Actual fraud rate by Age × Category), they appear as the darkest columns across nearly all age groups, meaning the risk isn't confined to a specific age.
 
 Fraudulent transactions in `Travel` are not only frequent but also expensive: the average fraud amount exceeds €250k, while typical fraudulent averages in other categories sit below €50k. This suggests Travel is both high-incidence and high-severity.
